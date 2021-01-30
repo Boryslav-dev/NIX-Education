@@ -1,0 +1,158 @@
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+a {
+    color: #e66e0d;
+}
+
+
+
+/* ---------- Header ---------- */
+
+
+
+#header {
+    width: 1450px;
+    padding: 0px 10px 0 10px;
+    height: 90px;
+    margin: 0px 0px 0px 100px;
+    position: fixed;
+    background-color: grey;
+}
+
+#header h1 {
+    font-size: 600px;
+    letter-spacing: 1px;
+    float: left;
+    margin: 25px 0px 0px 65px;
+}
+
+#header h1 a {
+    text-decoration: none;
+    color: #111;
+    font-weight: 100;
+}
+
+#nav {
+    position: absolute;
+    right: 700px;
+}
+
+#nav ul li {
+    float: left;
+    display: inline;
+}
+
+#nav ul li a {
+    text-decoration: none;
+    color: #101115;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 1px;
+    display: block;
+    padding: 20px 40px 30px 40px;
+}
+
+#header h2, h3  {
+    font-size: 125%;
+    letter-spacing: 1px;
+    float: right;
+    margin: 15px 30px 0px 0px;
+}
+
+#header h3{
+    position: absolute;
+    margin: 45px 0px 0px 1290px;
+}
+#header h2 a, h3 a {
+    text-decoration: none;
+    color: #111;
+    font-weight: 100;
+}
+
+
+
+/* ---------- Content ---------- */
+
+
+
+#content {
+    width: 1160px;
+    margin: auto;
+    padding: 150px 0px 0px 250px;
+}
+
+.info-content {
+    width: 300px;
+    margin: 0px 10px 0px 0px;
+    padding: 0px 70px 30px 0px;
+    float: left;
+}
+
+.info-content h4 {
+    margin-top: 0;
+    margin-left: 0;
+    font-size: 170%;
+    font-weight: 400;
+    color: #27292a;
+    margin-bottom: 18px;
+}
+
+.info-content p {
+    font-size: 100%;
+    color: #37393a;
+    line-height: 160%;
+}
+
+.info-reg {
+    width: 960px;
+    height: 100px;
+    margin-top: 150px;
+    border: 6px double gray;
+    background-color: rgb(58, 58, 58);
+}
+
+.info-reg p{
+    font-size: 130%;
+    color: white;
+    line-height: 160%;
+    text-align: center;
+    margin-top: 35px;
+}
+
+
+.info-acc {
+    border-top: 1px solid gray;
+    position: relative;
+    width: 960px;
+    height: 100px;
+    margin-top: 150px;
+    padding-top: 10px;
+    font-size: 100%;
+    color: #37393a;
+}
+
+.info-acc label {
+    font-size: 110%;
+    line-height: 200%;
+}
+
+.info-acc h5{
+    font-size: 120%;
+    font-weight: 500;
+}
+.button{
+    appearance: none;
+    border: 0;
+    border-radius: 10px;
+    background: rgb(47, 47, 49);
+    color: #fff;
+    padding: 8px 8px;
+    margin-top: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+
+
