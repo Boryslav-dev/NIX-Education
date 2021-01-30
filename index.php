@@ -15,9 +15,9 @@
             <h1><a href="index.php"><b>NIX</b>Education</a></h1>
             <div id = "nav">
                 <ul>
-                    <li id = "task_1"><a href = "">Урок 1</a></li>
-                    <li id = "task_2"><a href = "">Урок 2</a>
-                    <li id = "task_3"><a href = "">Урок 3</a></li>
+                    <li id = "task_1"><a href = "task_1.php">Урок 1</a></li>
+                    <li id = "task_2"><a href = "task_2.php">Урок 2</a>
+                    <li id = "task_3"><a href = "task_3.php">Урок 3</a></li>
                 </ul>
             </div>
         </div>
