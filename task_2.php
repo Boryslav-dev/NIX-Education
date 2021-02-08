@@ -38,3 +38,21 @@ function SetColour($number){
     <?php endfor; ?>
 </tr>
 </table>
+
+<style type="text/css">
+    TABLE {
+    border-collapse: collapse; /* Убираем двойные линии между ячейками */
+    width: 500px; /* Ширина таблицы */
+   }
+   TH {
+    background: #fc0; /* Цвет фона ячейки */
+    text-align: left; /* Выравнивание по левому краю */
+   }
+   TD {
+    background: #fff; /* Цвет фона ячеек */
+   }
+   TH, TD {
+    border: 1px solid black; /* Параметры рамки */
+    padding: 4px; /* Поля вокруг текста */
+   }
+  </style>
